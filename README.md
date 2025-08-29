@@ -1,4 +1,5 @@
 # Hotel Management System CLI 🏨
+
 A command-line interface (CLI) application for managing a hotel. This system allows you to manage rooms, guests, and bookings efficiently. It is built with Python and uses SQLAlchemy for database management.
 
 📁 Project Structure
