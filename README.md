@@ -2,7 +2,7 @@
 
 A command-line interface (CLI) application for managing a hotel. This system allows you to manage rooms, guests, and bookings efficiently. It is built with Python and uses SQLAlchemy for database management.
 
-📁 Project Structure
+**📁 Project Structure**
 ├── .gitignore
 ├── Pipfile
 ├── Pipfile.lock
@@ -14,7 +14,7 @@ A command-line interface (CLI) application for managing a hotel. This system all
 ├── models.py
 └── README.md
 
-✨## ** Features**
+**✨ Features**
   1.Room Management: Add, view, and manage hotel rooms.
   2.Guest Management: Add, view, and manage guest information.
 
@@ -23,14 +23,14 @@ A command-line interface (CLI) application for managing a hotel. This system all
   4.Database Integration: All data is persisted in an SQLite database using SQLAlchemy and Alembic for migrations.
 
 
-🛠️ ## Prerequisites
+**🛠️ Prerequisites**
 To run this project, you need to have the following installed on your system:
 
 Python 3.12+
 
 pipenv for dependency management.
 
-⚙️ ## Installation & Setup
+**⚙️ Installation & Setup**
 Follow these steps to get a local copy of the project up and running.
 
 Clone the repository:
@@ -51,7 +51,7 @@ This step sets up your database tables. Make sure you've correctly configured yo
 **pipenv run alembic upgrade head
 
 
-🚀 ## Usage
+**🚀 Usage**
 Once the setup is complete, you can run the application and its commands from the root directory of the project.
 
 General Command Syntax:
@@ -86,10 +86,10 @@ View all rooms:
 pipenv run python -m hotel_management view-rooms
 
 
-📝 Database & Migrations
+**📝 Database & Migrations**
 The project uses a SQLite database, stored in a file named hotel_management.db. Database migrations are handled by Alembic, ensuring your database schema can be easily updated over time.
 
-📄 License
+**📄 License**
 This project is licensed under the MIT License.
 
 MIT License
